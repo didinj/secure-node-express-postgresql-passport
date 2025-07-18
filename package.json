@@ -1,23 +1,29 @@
 {
-  "name": "secure-node",
-  "version": "0.0.0",
-  "private": true,
+  "name": "secure-node-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "node ./bin/www"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
   "dependencies": {
-    "bcrypt-nodejs": "0.0.3",
-    "cookie-parser": "~1.4.3",
-    "debug": "~2.6.9",
-    "ejs": "~2.5.7",
-    "express": "~4.16.0",
-    "http-errors": "~1.6.2",
-    "jsonwebtoken": "^8.4.0",
-    "morgan": "^1.9.1",
-    "passport": "^0.4.0",
-    "passport-jwt": "^4.0.0",
-    "pg": "^7.6.1",
-    "pg-hstore": "^2.3.2",
-    "sequelize": "^4.41.2"
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "express-oauth-server": "^2.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1",
+    "pg": "^8.16.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "sequelize-cli": "^6.6.3"
   }
 }
